@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。 示例:123给定 nums = [2, 7, 11, 15], target = 9因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1]">
+<meta name="description" content="单链表面试集合找出单聊表中倒数第K个的元素使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&amp;lt;font color=#FF0000”&amp;gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个. 找出单链表的中间元素使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode - 1. 两数之和（C语言）">
-<meta property="og:url" content="http://yoursite.com/2018/07/31/3123213213/index.html">
+<meta property="og:title" content="单链表面试集合">
+<meta property="og:url" content="http://yoursite.com/2018/08/15/面试_单链表面试集合/index.html">
 <meta property="og:site_name" content="代码守望者">
-<meta property="og:description" content="给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。 示例:123给定 nums = [2, 7, 11, 15], target = 9因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1]">
+<meta property="og:description" content="单链表面试集合找出单聊表中倒数第K个的元素使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&amp;lt;font color=#FF0000”&amp;gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个. 找出单链表的中间元素使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-22T13:56:10.000Z">
+<meta property="og:updated_time" content="2018-08-22T16:36:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LeetCode - 1. 两数之和（C语言）">
-<meta name="twitter:description" content="给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。 示例:123给定 nums = [2, 7, 11, 15], target = 9因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1]">
+<meta name="twitter:title" content="单链表面试集合">
+<meta name="twitter:description" content="单链表面试集合找出单聊表中倒数第K个的元素使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&amp;lt;font color=#FF0000”&amp;gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个. 找出单链表的中间元素使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/31/3123213213/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/08/15/面试_单链表面试集合/"/>
 
 
 
 
 
-  <title>LeetCode - 1. 两数之和（C语言） | 代码守望者</title>
+  <title>单链表面试集合 | 代码守望者</title>
   
 
 
@@ -262,7 +262,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/31/3123213213/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/15/面试_单链表面试集合/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="帅的YB">
@@ -279,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">LeetCode - 1. 两数之和（C语言）</h1>
+          <h1 class="post-title" itemprop="name headline">单链表面试集合</h1>
         
 
         <div class="post-meta">
@@ -291,8 +291,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-31T17:24:29+08:00">
-                2018-07-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-15T00:00:00+08:00">
+                2018-08-15
               </time>
             
 
@@ -314,8 +314,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/LeetCode/" itemprop="url" rel="index">
-                    <span itemprop="name">LeetCode</span>
+                  <a href="/categories/iOS面试/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS面试</span>
                   </a>
                 </span>
 
@@ -351,14 +351,24 @@
       
 
       
-        <p>给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。<br>你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。</p>
-<p>示例:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">给定 nums = [2, 7, 11, 15], target = 9</span><br><span class="line">因为 nums[0] + nums[1] = 2 + 7 = 9</span><br><span class="line">所以返回 [0, 1]</span><br></pre></td></tr></table></figure></p>
-<a id="more"></a>
-<h3 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line"></span><br><span class="line">int* twoSum(int* nums, int numsSize, int target) &#123;</span><br><span class="line"></span><br><span class="line">  int min = 2147483647;</span><br><span class="line">  int i = 0;</span><br><span class="line">  for (i = 0; i &lt; numsSize; i++) &#123;</span><br><span class="line">      if (nums[i] &lt; min)</span><br><span class="line">          min = nums[i];</span><br><span class="line">  &#125;</span><br><span class="line">  int max = target - min;</span><br><span class="line">  int len = max - min + 1;   //确定hash长度</span><br><span class="line">  int *table = (int*)malloc(len*sizeof(int));</span><br><span class="line">  int *indice = (int*)malloc(2*sizeof(int));</span><br><span class="line">  for (i = 0; i &lt; len; i++) &#123;</span><br><span class="line">      table[i] = -1;         //hash初值</span><br><span class="line">  &#125;</span><br><span class="line">  for (i = 0; i &lt; numsSize; i++) &#123;</span><br><span class="line">      if (nums[i]-min &lt; len) &#123;</span><br><span class="line">          if (table[target-nums[i]-min] != -1) &#123;        //满足相加为target</span><br><span class="line">              indice[0] = table[target-nums[i] - min];</span><br><span class="line">              indice[1] = i;</span><br><span class="line">              return indice;</span><br><span class="line">          &#125;</span><br><span class="line">          table[nums[i]-min] = i;</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  free(table);</span><br><span class="line">  return indice;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">int main() &#123;</span><br><span class="line"></span><br><span class="line">   int a[4] = &#123;2,7,11,13&#125;;</span><br><span class="line">   int tag = 9;</span><br><span class="line">   int *num = twoSum(a,4,tag);</span><br><span class="line">      printf(&quot;%d-%d&quot;,num[0],num[1]);</span><br><span class="line"></span><br><span class="line">   return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">class LeetCode001 &#123;</span><br><span class="line">    //第一题</span><br><span class="line">    //给定一个整数数组，找出其中两个数满足相加等于你指定的目标数字。</span><br><span class="line"></span><br><span class="line">    func logData() &#123;</span><br><span class="line">        //###1 [2,7,11,15]</span><br><span class="line">        let array:[Int] = [2,7,11,15]</span><br><span class="line">        let target:Int  = 9</span><br><span class="line">        print(LeetCode001().twoSum(array, target))</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    func twoSum(_ nums: [Int], _ target: Int) -&gt; [Int] &#123;</span><br><span class="line">        var array1 = [Int]()</span><br><span class="line"></span><br><span class="line">        for i in 0  ..&lt; nums.count  &#123;</span><br><span class="line">            for j in i + 1  ..&lt; nums.count  &#123;</span><br><span class="line">                if nums[i]+nums[j] == target &#123;</span><br><span class="line">                    //具体数据</span><br><span class="line">                    array1.append(i)</span><br><span class="line">                    array1.append(j)</span><br><span class="line">                    return array1;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return array1;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h1 id="单链表面试集合"><a href="#单链表面试集合" class="headerlink" title="单链表面试集合"></a>单链表面试集合</h1><h4 id="找出单聊表中倒数第K个的元素"><a href="#找出单聊表中倒数第K个的元素" class="headerlink" title="找出单聊表中倒数第K个的元素"></a>找出单聊表中倒数第K个的元素</h4><p>使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&lt;font color=#FF0000”&gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个.</p>
+<h4 id="找出单链表的中间元素"><a href="#找出单链表的中间元素" class="headerlink" title="找出单链表的中间元素"></a>找出单链表的中间元素</h4><p>使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链表中间元素.</p>
+<h4 id="判断单链表是否有环？"><a href="#判断单链表是否有环？" class="headerlink" title="判断单链表是否有环？"></a>判断单链表是否有环？</h4><p>使用指针追赶的方法，shlow每次都一步，fast每次都两步、如果存在则两者相遇；如果不存在则fast遇到Null退出</p>
+<h4 id="如何知道环的长度"><a href="#如何知道环的长度" class="headerlink" title="如何知道环的长度"></a>如何知道环的长度</h4><p>记住一个点，让slow从这里出发，环着走一圈，再次回到点时，所经过的节点数就是环的长度</p>
+<h4 id="判断两个链表-无环-是否相交"><a href="#判断两个链表-无环-是否相交" class="headerlink" title="判断两个链表(无环)是否相交"></a>判断两个链表(无环)是否相交</h4><ul>
+<li>遍历两个链表，进行比较看节点是否相同</li>
+<li>两链表一旦相交，相交节点一定有相同的内存地址。遍历第一个链表，并利用地址建立哈希表，遍历第二个链表，看看地址哈希值是否和第一个表中的节点地址值有相同即可判断两个链表是否相交。时间复杂度O(（length（A）+ length（B))</li>
+<li>两个链表相连接变成一个链表，slow查看是否有环</li>
+</ul>
+<h4 id="判断两个链表-可能有环-是否相交"><a href="#判断两个链表-可能有环-是否相交" class="headerlink" title="判断两个链表(可能有环)是否相交"></a>判断两个链表(可能有环)是否相交</h4><ul>
+<li>都无环 同上</li>
+<li>一个有环 一个没有  不相交</li>
+<li>两个都有，在A链表上，使用指针追赶的方法，找到两个指针碰撞点，之后判断碰撞点是否在B链表上。如果在，则相交。</li>
+</ul>
+<h4 id="寻找两个相交链表的第一个公共节点"><a href="#寻找两个相交链表的第一个公共节点" class="headerlink" title="寻找两个相交链表的第一个公共节点"></a>寻找两个相交链表的第一个公共节点</h4><ul>
+<li>双重for循环进行查找，直到找到相等的节点，O(mn)</li>
+<li>相交的点在环外。如果两个链表有公共节点，那么该公共节点之后的所有节点都是两个链表所共有的，所以长度一定也是相等的，如果两个链表的总长度是相等的，那么我们对两个链表进行遍历，则一定同时到达第一个公共节点。如何链表的长度实际上不一定相同，所以计算出两个链表的长度之差n，然后让长的那个链表先移动n步，短的链表再开始向后移动的时候比较两个链表的节点是否相等就可以获得第一个公共节点。时间复杂度是O(m+n)</li>
+</ul>
 
       
     </div>
@@ -383,8 +393,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/31/LeetCode - 1. 两数之和（C语言）/" rel="next" title="LeetCode - 1. 两数之和（C语言）">
-                <i class="fa fa-chevron-left"></i> LeetCode - 1. 两数之和（C语言）
+              <a href="/2018/08/02/LeetCode - 5. 最长回文子串（C语言）/" rel="next" title="LeetCode - 5. 最长回文子串（C语言）">
+                <i class="fa fa-chevron-left"></i> LeetCode - 5. 最长回文子串（C语言）
               </a>
             
           </div>
@@ -392,10 +402,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/01/LeetCode - 2. 两数相加（C语言）/" rel="prev" title="LeetCode - 2. 两数相加（C语言）">
-                LeetCode - 2. 两数相加（C语言） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -487,7 +493,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -550,7 +556,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#C语言"><span class="nav-number">1.</span> <span class="nav-text">C语言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Swift"><span class="nav-number">2.</span> <span class="nav-text">Swift</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#单链表面试集合"><span class="nav-number">1.</span> <span class="nav-text">单链表面试集合</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#找出单聊表中倒数第K个的元素"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">找出单聊表中倒数第K个的元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#找出单链表的中间元素"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">找出单链表的中间元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#判断单链表是否有环？"><span class="nav-number">1.0.0.3.</span> <span class="nav-text">判断单链表是否有环？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#如何知道环的长度"><span class="nav-number">1.0.0.4.</span> <span class="nav-text">如何知道环的长度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#判断两个链表-无环-是否相交"><span class="nav-number">1.0.0.5.</span> <span class="nav-text">判断两个链表(无环)是否相交</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#判断两个链表-可能有环-是否相交"><span class="nav-number">1.0.0.6.</span> <span class="nav-text">判断两个链表(可能有环)是否相交</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#寻找两个相交链表的第一个公共节点"><span class="nav-number">1.0.0.7.</span> <span class="nav-text">寻找两个相交链表的第一个公共节点</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
