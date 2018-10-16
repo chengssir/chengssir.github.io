@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="代码守望者">
 <meta property="og:description" content="单链表面试集合找出单聊表中倒数第K个的元素使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&amp;lt;font color=#FF0000”&amp;gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个. 找出单链表的中间元素使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-22T16:36:19.000Z">
+<meta property="og:updated_time" content="2018-10-16T14:17:53.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="单链表面试集合">
 <meta name="twitter:description" content="单链表面试集合找出单聊表中倒数第K个的元素使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&amp;lt;font color=#FF0000”&amp;gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个. 找出单链表的中间元素使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链">
@@ -354,6 +354,7 @@
         <h1 id="单链表面试集合"><a href="#单链表面试集合" class="headerlink" title="单链表面试集合"></a>单链表面试集合</h1><h4 id="找出单聊表中倒数第K个的元素"><a href="#找出单聊表中倒数第K个的元素" class="headerlink" title="找出单聊表中倒数第K个的元素"></a>找出单聊表中倒数第K个的元素</h4><p>使用指针追赶的方法，定义两个指针fast和slow，fast先走K步(&lt;font color=#FF0000”&gt;”注意链表长度是否大于K”)，然后fast和slow在同时继续走，当fast到链表尾部时，slow指向倒数第K个.</p>
 <h4 id="找出单链表的中间元素"><a href="#找出单链表的中间元素" class="headerlink" title="找出单链表的中间元素"></a>找出单链表的中间元素</h4><p>使用指针追赶的方法，fast每次走两步，slow每次走一步，当fast到链表尾部时，slow指向链表中间元素.</p>
 <h4 id="判断单链表是否有环？"><a href="#判断单链表是否有环？" class="headerlink" title="判断单链表是否有环？"></a>判断单链表是否有环？</h4><p>使用指针追赶的方法，shlow每次都一步，fast每次都两步、如果存在则两者相遇；如果不存在则fast遇到Null退出</p>
+<a id="more"></a>
 <h4 id="如何知道环的长度"><a href="#如何知道环的长度" class="headerlink" title="如何知道环的长度"></a>如何知道环的长度</h4><p>记住一个点，让slow从这里出发，环着走一圈，再次回到点时，所经过的节点数就是环的长度</p>
 <h4 id="判断两个链表-无环-是否相交"><a href="#判断两个链表-无环-是否相交" class="headerlink" title="判断两个链表(无环)是否相交"></a>判断两个链表(无环)是否相交</h4><ul>
 <li>遍历两个链表，进行比较看节点是否相同</li>
