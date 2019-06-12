@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="给定一个字符串，找出不含有重复字符的最长子串的长度。 示例： 给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。 给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。 给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。">
+<meta name="description" content="将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。 比如输入字符串为 “LEETCODEISHIRING” 行数为 3 时，排列如下： 123L   C   I   RE T O E S I I GE   D   H   N 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：”LCIRETOESIIGEDHN”。 请你实现这个将字符串进行指定行数变换的函数：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode - 3. 无重复字符的最长子串（C语言）">
-<meta property="og:url" content="http://yoursite.com/2018/08/01/LeetCode - 3. 无重复字符的最长子串（C语言）/index.html">
+<meta property="og:title" content="LeetCode - 6. Z字形转换（C语言）">
+<meta property="og:url" content="http://yoursite.com/2019/06/11/LeetCode - 6. Z字形转换（C语言）/index.html">
 <meta property="og:site_name" content="代码守望者">
-<meta property="og:description" content="给定一个字符串，找出不含有重复字符的最长子串的长度。 示例： 给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。 给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。 给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。">
+<meta property="og:description" content="将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。 比如输入字符串为 “LEETCODEISHIRING” 行数为 3 时，排列如下： 123L   C   I   RE T O E S I I GE   D   H   N 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：”LCIRETOESIIGEDHN”。 请你实现这个将字符串进行指定行数变换的函数：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-22T13:56:10.000Z">
+<meta property="og:updated_time" content="2019-06-12T13:00:04.250Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LeetCode - 3. 无重复字符的最长子串（C语言）">
-<meta name="twitter:description" content="给定一个字符串，找出不含有重复字符的最长子串的长度。 示例： 给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。 给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。 给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。">
+<meta name="twitter:title" content="LeetCode - 6. Z字形转换（C语言）">
+<meta name="twitter:description" content="将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。 比如输入字符串为 “LEETCODEISHIRING” 行数为 3 时，排列如下： 123L   C   I   RE T O E S I I GE   D   H   N 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：”LCIRETOESIIGEDHN”。 请你实现这个将字符串进行指定行数变换的函数：">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/08/01/LeetCode - 3. 无重复字符的最长子串（C语言）/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/06/11/LeetCode - 6. Z字形转换（C语言）/"/>
 
 
 
 
 
-  <title>LeetCode - 3. 无重复字符的最长子串（C语言） | 代码守望者</title>
+  <title>LeetCode - 6. Z字形转换（C语言） | 代码守望者</title>
   
 
 
@@ -262,7 +262,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/01/LeetCode - 3. 无重复字符的最长子串（C语言）/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/11/LeetCode - 6. Z字形转换（C语言）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="帅的YB">
@@ -279,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">LeetCode - 3. 无重复字符的最长子串（C语言）</h1>
+          <h1 class="post-title" itemprop="name headline">LeetCode - 6. Z字形转换（C语言）</h1>
         
 
         <div class="post-meta">
@@ -291,8 +291,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-01T17:24:29+08:00">
-                2018-08-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-11T19:30:29+08:00">
+                2019-06-11
               </time>
             
 
@@ -351,18 +351,58 @@
       
 
       
-        <p>给定一个字符串，找出不含有重复字符的最长子串的长度。</p>
-<p>示例：</p>
-<p>给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。</p>
-<p>给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。</p>
-<p>给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。</p>
+        <p>将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。</p>
+<p>比如输入字符串为 “LEETCODEISHIRING” 行数为 3 时，排列如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">L   C   I   R</span><br><span class="line">E T O E S I I G</span><br><span class="line">E   D   H   N</span><br></pre></td></tr></table></figure>
+<p>之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：”LCIRETOESIIGEDHN”。</p>
+<p>请你实现这个将字符串进行指定行数变换的函数：</p>
+<blockquote>
+<p>string convert(string s, int numRows);</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">示例 1:：</span><br><span class="line">输入: s = &quot;LEETCODEISHIRING&quot;, numRows = 3</span><br><span class="line">输出: &quot;LCIRETOESIIGEDHN&quot;</span><br><span class="line"></span><br><span class="line">示例 2：</span><br><span class="line">输入: s = &quot;LEETCODEISHIRING&quot;, numRows = 4</span><br><span class="line">输出: &quot;LDREOEIIECIHNTSG&quot;</span><br><span class="line">解释:</span><br><span class="line">L     D     R</span><br><span class="line">E   O E   I I</span><br><span class="line">E C   I H   N</span><br><span class="line">T     S     G</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<ul>
-<li>解题思路：   依次读取字符串的每一个字符，如果第一次出现则当前子串长度+1，否则：首先判断当前长度是否大于最大长度，是则替换最大长度。然后查找重复的字符是在原字符串哪里出现的。</li>
-</ul>
-<h3 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;string.h&gt;</span><br><span class="line"></span><br><span class="line">int lengthOfLongestSubstring(char* s) &#123;</span><br><span class="line"></span><br><span class="line">    int maxlen = 0,currlen = 0;</span><br><span class="line">    int table[128], i, j, start = 0;</span><br><span class="line">    memset(table, 0, sizeof(table));</span><br><span class="line">    for (i = 0; s[i] != &apos;\0&apos;; ++i)&#123;</span><br><span class="line">        int num =  ++table[s[i]];</span><br><span class="line">        if( num == 2 )&#123;</span><br><span class="line">            if (currlen &gt; maxlen)&#123;</span><br><span class="line">                maxlen = currlen;</span><br><span class="line">            &#125;</span><br><span class="line">            for(j = start; j &lt; i; ++j)&#123;</span><br><span class="line">                if (s[j] == s[i])&#123;</span><br><span class="line">                    table[s[j]] = 1;</span><br><span class="line">                    start = j+1;</span><br><span class="line">                    break;</span><br><span class="line">                &#125;else&#123;</span><br><span class="line">                    --currlen;</span><br><span class="line">                    table[s[j]] = 0;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            ++currlen;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    if (currlen &gt; maxlen)&#123;</span><br><span class="line">        maxlen = currlen;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return maxlen;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">int main() &#123;</span><br><span class="line"></span><br><span class="line">//    char s[] = &quot;abcdefghiadsdhajdasdsa&quot;;</span><br><span class="line">//    char s[] = &quot;abcabcabcda&quot;;</span><br><span class="line">    char s[] = &quot;aaaaaaaa&quot;;</span><br><span class="line"></span><br><span class="line">    int maxlen = lengthOfLongestSubstring(s);</span><br><span class="line"></span><br><span class="line">    printf(&quot;%d&quot;,maxlen);</span><br><span class="line"></span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">class LeetCode003 &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    func logData()&#123;</span><br><span class="line"></span><br><span class="line">        let string : String = &quot;aabcba&quot;</span><br><span class="line">        let results : Int = LeetCode003().lengthOfLongestSubstring(string)</span><br><span class="line">        print(results)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    //第三题</span><br><span class="line">    func lengthOfLongestSubstring(_ s: String) -&gt; Int &#123;</span><br><span class="line"></span><br><span class="line">        //key:Character</span><br><span class="line">        //value:Int</span><br><span class="line">        var letterAppearedDict = [Character:Int]()</span><br><span class="line">        //最大长度</span><br><span class="line">        var maxLength = 0</span><br><span class="line">        //当前长度</span><br><span class="line">        var currentLength = 0</span><br><span class="line">        //Character类型的数组</span><br><span class="line">        var chars = [Character](s.characters)</span><br><span class="line"></span><br><span class="line">        for index in 0 ..&lt; chars.count &#123;</span><br><span class="line">            //取值</span><br><span class="line">            let char = chars[index]</span><br><span class="line"></span><br><span class="line">            if letterAppearedDict[char] == nil &#123;</span><br><span class="line">                //不存在则添加value 第几位</span><br><span class="line">                letterAppearedDict[char] = index</span><br><span class="line">                //当前长度++</span><br><span class="line">                currentLength += 1</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                //已经存在，存在第几位？</span><br><span class="line">                let previousIndex = letterAppearedDict[char]!</span><br><span class="line">                //清空重复位置</span><br><span class="line">                for clearIndex in index - currentLength ..&lt; previousIndex &#123;</span><br><span class="line">                    letterAppearedDict[chars[clearIndex]] = nil</span><br><span class="line">                &#125;</span><br><span class="line">                //添加value 第几位</span><br><span class="line">                letterAppearedDict[char] = index</span><br><span class="line">                //当前长度当前位置减去重复下标</span><br><span class="line">                currentLength = index - previousIndex</span><br><span class="line">            &#125;</span><br><span class="line">            //记录最大</span><br><span class="line">            maxLength = max(maxLength, currentLength)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        return maxLength</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="算法说明"><a href="#算法说明" class="headerlink" title="算法说明"></a>算法说明</h4><p>比如有一个字符串 “0123456789ABCDECFHIJ”</p>
+<p>转换<br>2行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">0 2 4 6 8    </span><br><span class="line">1 3 5 7 9</span><br></pre></td></tr></table></figure>
+<p>3行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">0     4     8     C  </span><br><span class="line">1  3  5  7  9  B  D  F </span><br><span class="line">2     6     A     E</span><br></pre></td></tr></table></figure>
+<p>5行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">0     8     G </span><br><span class="line">1   7 9   F H</span><br><span class="line">2  6  A  E  I</span><br><span class="line">3 5   B D   J</span><br><span class="line">4     C     K</span><br></pre></td></tr></table></figure>
+<p>转换数字看:（例1）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">0     8         16 </span><br><span class="line">1   7 9      15 17</span><br><span class="line">2  6  10   14   18</span><br><span class="line">3 5   11 13     19</span><br><span class="line">4     12        20</span><br></pre></td></tr></table></figure>
+<p>我们发现第一行和最后一行没两个元素都有一种关系（和行数有一定关系）:2 * rows - 2</p>
+<p>5行</p>
+<table>
+<thead>
+<tr>
+<th>0</th>
+<th>2*5-2=8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>4+(2*5-2)=12</td>
+</tr>
+</tbody>
+</table>
+<p>3行</p>
+<table>
+<thead>
+<tr>
+<th>0</th>
+<th>2*3-2 = 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>2+(2*3-2) = 6</td>
+</tr>
+</tbody>
+</table>
+<p>然后我们看下中间的部分的规律(看例1) 1 、 2 、 3 行<br>其中有部分是符合上述规律（2<em>rows-2=8），<br>其两数中间还有一个，<br>看其中间规律  7 = 8 - 1， 6 = 8 - 2， 5 = 8 - 3，<br>有没有发现减去的1、2、3正好就是所在行数<br>所以中间数字的公式 = （2 </em> rows-2）- i(第i行)</p>
+<h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">class leetCode &#123;</span><br><span class="line">    </span><br><span class="line">    func convert(_ s: String, _ numRows: Int) -&gt; String &#123;</span><br><span class="line">        let len: Int = s.count</span><br><span class="line">        guard (len &gt; numRows) &amp;&amp; (numRows &gt; 1) else &#123;</span><br><span class="line">            return s</span><br><span class="line">        &#125;</span><br><span class="line">        //字符串转字符数组</span><br><span class="line">        var characters = Array(s)</span><br><span class="line">        // 第一个公式</span><br><span class="line">        let funNum:Int = 2 * numRows - 2</span><br><span class="line">        </span><br><span class="line">        var resultStr: String = &quot;&quot;</span><br><span class="line">        for i in 0..&lt;numRows &#123;</span><br><span class="line">            var j:Int = 0</span><br><span class="line">            while (j + i) &lt; len &#123;</span><br><span class="line">                let aaa = characters[j + i]</span><br><span class="line">                resultStr.append(aaa)</span><br><span class="line">                print(aaa)</span><br><span class="line">                //第二个公式</span><br><span class="line">                let coordi:Int = j + funNum - i</span><br><span class="line">                if i != 0 &amp;&amp; i != numRows - 1 &amp;&amp; coordi &lt; len&#123;</span><br><span class="line">                    let bbb = characters[coordi]</span><br><span class="line">                    resultStr.append(bbb)</span><br><span class="line">                &#125;</span><br><span class="line">                j += funNum</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        print(resultStr)</span><br><span class="line">        return resultStr</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -387,8 +427,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/08/01/LeetCode - 2. 两数相加（C语言）/" rel="next" title="LeetCode - 2. 两数相加（C语言）">
-                <i class="fa fa-chevron-left"></i> LeetCode - 2. 两数相加（C语言）
+              <a href="/2019/05/30/KVO+KVC原理/" rel="next" title="KVO + KVC原理">
+                <i class="fa fa-chevron-left"></i> KVO + KVC原理
               </a>
             
           </div>
@@ -396,10 +436,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/02/LeetCode - 4. 两个排序数组的中位数（C语言）/" rel="prev" title="LeetCode - 4. 两个排序数组的中位数（C语言）">
-                LeetCode - 4. 两个排序数组的中位数（C语言） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -554,7 +590,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#C语言"><span class="nav-number">1.</span> <span class="nav-text">C语言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Swift"><span class="nav-number">2.</span> <span class="nav-text">Swift</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#算法说明"><span class="nav-number">1.</span> <span class="nav-text">算法说明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Swift"><span class="nav-number"></span> <span class="nav-text">Swift</span></a></div>
             
 
           </div>
