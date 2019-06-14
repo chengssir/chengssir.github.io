@@ -1,5 +1,5 @@
 ---
-title: LeetCode - 6. Z字形转换（C语言）
+title: LeetCode - 6. Z字形转换（Swift语言）
 categories: LeetCode
 date: 2019-06-11 19:30:29
 ---
