@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="给定一个字符串，找出不含有重复字符的最长子串的长度。 示例： 给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。 给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。 给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。">
+<meta name="description" content="判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。  示例 1:  输入: 121 输出: true  示例 2:  输入: -121 输出: false 解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。  示例 3:  输入: 10 输出: false 解释: 从右向左读, 为 01 。因此它不是一个回文数。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode - 3. 无重复字符的最长子串（C语言）">
-<meta property="og:url" content="http://yoursite.com/2018/08/01/LeetCode - 3. 无重复字符的最长子串（C语言）/index.html">
+<meta property="og:title" content="LeetCode - 9. 回文数    （Swift语言）">
+<meta property="og:url" content="http://yoursite.com/2019/06/21/LeetCode - 9. 回文数（Swift语言）/index.html">
 <meta property="og:site_name" content="代码守望者">
-<meta property="og:description" content="给定一个字符串，找出不含有重复字符的最长子串的长度。 示例： 给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。 给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。 给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。">
+<meta property="og:description" content="判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。  示例 1:  输入: 121 输出: true  示例 2:  输入: -121 输出: false 解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。  示例 3:  输入: 10 输出: false 解释: 从右向左读, 为 01 。因此它不是一个回文数。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-22T13:56:10.000Z">
+<meta property="og:updated_time" content="2019-06-22T13:32:57.659Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LeetCode - 3. 无重复字符的最长子串（C语言）">
-<meta name="twitter:description" content="给定一个字符串，找出不含有重复字符的最长子串的长度。 示例： 给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。 给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。 给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。">
+<meta name="twitter:title" content="LeetCode - 9. 回文数    （Swift语言）">
+<meta name="twitter:description" content="判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。  示例 1:  输入: 121 输出: true  示例 2:  输入: -121 输出: false 解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。  示例 3:  输入: 10 输出: false 解释: 从右向左读, 为 01 。因此它不是一个回文数。">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/08/01/LeetCode - 3. 无重复字符的最长子串（C语言）/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/06/21/LeetCode - 9. 回文数（Swift语言）/"/>
 
 
 
 
 
-  <title>LeetCode - 3. 无重复字符的最长子串（C语言） | 代码守望者</title>
+  <title>LeetCode - 9. 回文数    （Swift语言） | 代码守望者</title>
   
 
 
@@ -262,7 +262,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/01/LeetCode - 3. 无重复字符的最长子串（C语言）/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/21/LeetCode - 9. 回文数（Swift语言）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="帅的YB">
@@ -279,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">LeetCode - 3. 无重复字符的最长子串（C语言）</h1>
+          <h1 class="post-title" itemprop="name headline">LeetCode - 9. 回文数    （Swift语言）</h1>
         
 
         <div class="post-meta">
@@ -291,8 +291,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-01T17:24:29+08:00">
-                2018-08-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-21T19:30:29+08:00">
+                2019-06-21
               </time>
             
 
@@ -351,18 +351,28 @@
       
 
       
-        <p>给定一个字符串，找出不含有重复字符的最长子串的长度。</p>
-<p>示例：</p>
-<p>给定 “abcabcbb” ，没有重复字符的最长子串是 “abc” ，那么长度就是3。</p>
-<p>给定 “bbbbb” ，最长的子串就是 “b” ，长度是1。</p>
-<p>给定 “pwwkew” ，最长子串是 “wke” ，长度是3。请注意答案必须是一个子串，”pwke” 是 子序列  而不是子串。</p>
-<a id="more"></a>
-<ul>
-<li>解题思路：   依次读取字符串的每一个字符，如果第一次出现则当前子串长度+1，否则：首先判断当前长度是否大于最大长度，是则替换最大长度。然后查找重复的字符是在原字符串哪里出现的。</li>
-</ul>
-<h3 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;string.h&gt;</span><br><span class="line"></span><br><span class="line">int lengthOfLongestSubstring(char* s) &#123;</span><br><span class="line"></span><br><span class="line">    int maxlen = 0,currlen = 0;</span><br><span class="line">    int table[128], i, j, start = 0;</span><br><span class="line">    memset(table, 0, sizeof(table));</span><br><span class="line">    for (i = 0; s[i] != &apos;\0&apos;; ++i)&#123;</span><br><span class="line">        int num =  ++table[s[i]];</span><br><span class="line">        if( num == 2 )&#123;</span><br><span class="line">            if (currlen &gt; maxlen)&#123;</span><br><span class="line">                maxlen = currlen;</span><br><span class="line">            &#125;</span><br><span class="line">            for(j = start; j &lt; i; ++j)&#123;</span><br><span class="line">                if (s[j] == s[i])&#123;</span><br><span class="line">                    table[s[j]] = 1;</span><br><span class="line">                    start = j+1;</span><br><span class="line">                    break;</span><br><span class="line">                &#125;else&#123;</span><br><span class="line">                    --currlen;</span><br><span class="line">                    table[s[j]] = 0;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            ++currlen;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    if (currlen &gt; maxlen)&#123;</span><br><span class="line">        maxlen = currlen;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return maxlen;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">int main() &#123;</span><br><span class="line"></span><br><span class="line">//    char s[] = &quot;abcdefghiadsdhajdasdsa&quot;;</span><br><span class="line">//    char s[] = &quot;abcabcabcda&quot;;</span><br><span class="line">    char s[] = &quot;aaaaaaaa&quot;;</span><br><span class="line"></span><br><span class="line">    int maxlen = lengthOfLongestSubstring(s);</span><br><span class="line"></span><br><span class="line">    printf(&quot;%d&quot;,maxlen);</span><br><span class="line"></span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">class LeetCode003 &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    func logData()&#123;</span><br><span class="line"></span><br><span class="line">        let string : String = &quot;aabcba&quot;</span><br><span class="line">        let results : Int = LeetCode003().lengthOfLongestSubstring(string)</span><br><span class="line">        print(results)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    //第三题</span><br><span class="line">    func lengthOfLongestSubstring(_ s: String) -&gt; Int &#123;</span><br><span class="line"></span><br><span class="line">        //key:Character</span><br><span class="line">        //value:Int</span><br><span class="line">        var letterAppearedDict = [Character:Int]()</span><br><span class="line">        //最大长度</span><br><span class="line">        var maxLength = 0</span><br><span class="line">        //当前长度</span><br><span class="line">        var currentLength = 0</span><br><span class="line">        //Character类型的数组</span><br><span class="line">        var chars = [Character](s.characters)</span><br><span class="line"></span><br><span class="line">        for index in 0 ..&lt; chars.count &#123;</span><br><span class="line">            //取值</span><br><span class="line">            let char = chars[index]</span><br><span class="line"></span><br><span class="line">            if letterAppearedDict[char] == nil &#123;</span><br><span class="line">                //不存在则添加value 第几位</span><br><span class="line">                letterAppearedDict[char] = index</span><br><span class="line">                //当前长度++</span><br><span class="line">                currentLength += 1</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                //已经存在，存在第几位？</span><br><span class="line">                let previousIndex = letterAppearedDict[char]!</span><br><span class="line">                //清空重复位置</span><br><span class="line">                for clearIndex in index - currentLength ..&lt; previousIndex &#123;</span><br><span class="line">                    letterAppearedDict[chars[clearIndex]] = nil</span><br><span class="line">                &#125;</span><br><span class="line">                //添加value 第几位</span><br><span class="line">                letterAppearedDict[char] = index</span><br><span class="line">                //当前长度当前位置减去重复下标</span><br><span class="line">                currentLength = index - previousIndex</span><br><span class="line">            &#125;</span><br><span class="line">            //记录最大</span><br><span class="line">            maxLength = max(maxLength, currentLength)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        return maxLength</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <p><br></p>
+<p>判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
+<blockquote>
+<p>示例 1:</p>
+</blockquote>
+<pre><code>输入: 121
+输出: true
+</code></pre><blockquote>
+<p>示例 2:</p>
+</blockquote>
+<pre><code>输入: -121
+输出: false
+解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
+</code></pre><blockquote>
+<p>示例 3:</p>
+</blockquote>
+<pre><code>输入: 10
+输出: false
+解释: 从右向左读, 为 01 。因此它不是一个回文数。
+</code></pre><a id="more"></a>
+<p>解析:<br>    看到这个题目，按照这个要求我第一时间想到的就是之前的一个算法题（整数反转），如果反转相等那么这个整数肯定是回文数，负数除外。</p>
+<h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">class LeetCode9 &#123;</span><br><span class="line">    </span><br><span class="line">    func isPalindrome(_ x: Int) -&gt; Bool &#123;</span><br><span class="line">        </span><br><span class="line">        if x &lt; 0 &#123;</span><br><span class="line">            return false</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        var rev = 0</span><br><span class="line">        var temp = x</span><br><span class="line">        </span><br><span class="line">        while temp != 0 &#123;</span><br><span class="line">            let pop = temp % 10</span><br><span class="line">            temp = temp / 10</span><br><span class="line">            rev = rev * 10 + pop</span><br><span class="line">            if  rev &gt; Int32.max ||  rev &lt; Int32.min &#123;</span><br><span class="line">                return false</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        return rev  == x</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -387,8 +397,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/08/01/LeetCode - 2. 两数相加（C语言）/" rel="next" title="LeetCode - 2. 两数相加（C语言）">
-                <i class="fa fa-chevron-left"></i> LeetCode - 2. 两数相加（C语言）
+              <a href="/2019/06/13/LeetCode - 8. 字符串转换整数（Swift语言）/" rel="next" title="LeetCode - 8. 字符串转换整数（Swift语言）">
+                <i class="fa fa-chevron-left"></i> LeetCode - 8. 字符串转换整数（Swift语言）
               </a>
             
           </div>
@@ -396,10 +406,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/02/LeetCode - 4. 两个排序数组的中位数（C语言）/" rel="prev" title="LeetCode - 4. 两个排序数组的中位数（C语言）">
-                LeetCode - 4. 两个排序数组的中位数（C语言） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -554,7 +560,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#C语言"><span class="nav-number">1.</span> <span class="nav-text">C语言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Swift"><span class="nav-number">2.</span> <span class="nav-text">Swift</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Swift"><span class="nav-number">1.</span> <span class="nav-text">Swift</span></a></li></ol></div>
             
 
           </div>
